@@ -1,0 +1,6 @@
+{
+  "name": "ShopEase – Full-Stack E-Commerce Platform",
+  "description": "Full-stack e-commerce web application featuring role-based authentication, product catalog, search & multi-filter, cart, coupon engine, checkout with COD/UPI, order tracking, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

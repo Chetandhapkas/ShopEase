@@ -1,0 +1,77 @@
+{
+  "description": "MongoDB Atlas seed documents for ShopEase. Can be imported directly into MongoDB Atlas via Compass or mongoimport command.",
+  "collections": {
+    "users": [
+      {
+        "_id": "usr_admin_1",
+        "fullName": "ShopEase Admin",
+        "email": "admin@shopease.com",
+        "phone": "+1 (555) 019-2834",
+        "password": "$2a$10$YourBcryptHashedPasswordHereForAdmin@123",
+        "role": "ADMIN",
+        "active": true,
+        "createdAt": "2026-11-05T00:00:00Z"
+      },
+      {
+        "_id": "usr_demo_1",
+        "fullName": "Sarah Jenkins",
+        "email": "user@shopease.com",
+        "phone": "+1 (555) 482-9102",
+        "password": "$2a$10$YourBcryptHashedPasswordHereForUser@123",
+        "role": "USER",
+        "active": true,
+        "createdAt": "2026-11-05T00:00:00Z"
+      }
+    ],
+    "categories": [
+      {
+        "_id": "cat_women",
+        "name": "Women's Fashion",
+        "slug": "womens-fashion",
+        "description": "Contemporary dresses, tailored trench coats, silk separates, and silhouettes."
+      },
+      {
+        "_id": "cat_men",
+        "name": "Men's Fashion",
+        "slug": "mens-fashion",
+        "description": "Tailored suits, urban jackets, premium knitwear and elevated casuals."
+      },
+      {
+        "_id": "cat_footwear",
+        "name": "Footwear & Shoes",
+        "slug": "footwear",
+        "description": "Handcrafted leather sneakers, Chelsea boots, and minimalist loafers."
+      },
+      {
+        "_id": "cat_accessories",
+        "name": "Accessories & Bags",
+        "slug": "accessories",
+        "description": "Italian leather totes, chronographs, minimal eyewear, and brass accents."
+      }
+    ],
+    "coupons": [
+      {
+        "_id": "coup_1",
+        "code": "WELCOME10",
+        "discountType": "PERCENTAGE",
+        "discountValue": 10,
+        "minPurchase": 50,
+        "maxDiscount": 25,
+        "expiryDate": "2027-12-31",
+        "active": true,
+        "description": "10% OFF on orders above $50"
+      },
+      {
+        "_id": "coup_2",
+        "code": "SAVE20",
+        "discountType": "PERCENTAGE",
+        "discountValue": 20,
+        "minPurchase": 120,
+        "maxDiscount": 60,
+        "expiryDate": "2027-12-31",
+        "active": true,
+        "description": "20% OFF on luxury orders above $120"
+      }
+    ]
+  }
+}
